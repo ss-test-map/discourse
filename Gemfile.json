@@ -1,5 +1,5 @@
 {
-  "actionmailer": "7.0.7",
+  "actionmailer": "7.0.8",
   "actionpack": {
     "version": "7.0.7",
     "dependencies": [
