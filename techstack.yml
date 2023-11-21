@@ -1,0 +1,1936 @@
+repo_name: ss-test-map/discourse
+report_id: 150c25c7caa5c745494ecdc6104ce60d
+repo_type: Public
+timestamp: '2023-11-21T17:54:38+00:00'
+requested_by: bhautik4525
+provider: github
+branch: main
+detected_tools_count: 152
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 3.2.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: ".ruby-version.sample"
+  detection_source: ".ruby-version.sample"
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2023-02-24 15:51:34.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source: spec/fixtures/db/restore/trigger.sql
+  last_updated_by: Gerhard Schlager
+  last_updated_on: 2020-01-12 23:12:27.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  version: 5.1.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: David Taylor
+  last_updated_on: 2023-10-10 18:38:59.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-06-30 11:01:45.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 3.5.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-06-29 15:08:33.000000000 Z
+- name: Ember-cli
+  description: The command line interface for ambitious web applications
+  website_url: http://ember-cli.com/
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/1801/ember-cli.png
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: Ember.js
+  description: A JavaScript framework for creating ambitious web apps
+  website_url: http://emberjs.com/
+  version: 5.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/1018/3s1seyc0csl75btyw1vl.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/bootstrap-json/package.json
+  last_updated_by: David Taylor
+  last_updated_on: 2023-11-10 11:16:06.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: app/assets/javascripts/bootstrap-json/package.json
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2022-11-16 10:58:10.000000000 Z
+- name: Rails
+  description: Web development that doesn't hurt
+  website_url: http://rubyonrails.org/
+  version: 7.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
+  detection_source_url: Gemfile
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2023-08-11 01:00:42.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: Amazon S3
+  description: Store and retrieve any amount of data, at any time, from anywhere on
+    the web
+  website_url: http://aws.amazon.com/s3
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/25/amazon-s3.png
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2019-12-12 02:35:43.000000000 Z
+- name: SQLite
+  description: A software library that implements a self-contained, serverless, zero-configuration,
+    transactional SQL database engine
+  website_url: http://www.sqlite.org/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: Sidekiq
+  description: Simple, efficient background processing for Ruby
+  website_url: http://sidekiq.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Background Processing
+  image_url: https://img.stackshare.io/service/1078/4b7277462dadad85454ab427ce3f0ca7.png
+  detection_source: config/sidekiq.yml
+  last_updated_by: Sam Saffron
+  last_updated_on: 2019-12-12 02:35:43.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.23.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-09 23:00:05.000000000 Z
+- name: Capybara
+  description: Acceptance test framework for web applications
+  website_url: http://jnicklas.github.io/capybara/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2595/capybara.png
+  detection_source: Gemfile
+  last_updated_by: Martin Brennan
+  last_updated_on: 2022-09-28 01:48:16.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Guo Xiang Tan
+  last_updated_on: 2017-12-15 02:15:04.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/tests.yml"
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-05-12 12:00:04.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: package.json
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-10-23 10:08:35.000000000 Z
+- name: Puma
+  description: A Modern, Concurrent Web Server for Ruby
+  website_url: http://puma.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1055/favicon.png
+  detection_source: config/puma.rb
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: QUnit
+  description: A JavaScript Unit Testing framework
+  website_url: http://qunitjs.com/
+  version: 2.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1421/b706f022230831a3d391db504a139e21.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: Robin Ward
+  last_updated_on: 2021-01-18 21:12:45.000000000 Z
+- name: RSpec
+  description: Behaviour Driven Development for Ruby
+  website_url: https://rspec.info/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2539/logo.png
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2022-12-27 18:28:13.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 17.0.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-02 18:22:26.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.89.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-16 09:23:00.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: yarn.lock
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-04-20 12:57:40.000000000 Z
+- name: highlight.js
+  description: Syntax highlighter in JavaScript
+  website_url: https://highlightjs.org/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/6888/c17e7d9688d86bd9f9506ec1fbd6d200_400x400.png
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: David Taylor
+  last_updated_on: 2023-11-10 20:39:48.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 16.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-29 10:59:56.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Guo Xiang Tan
+  last_updated_on: 2017-12-15 02:15:04.000000000 Z
+- name: Amazon SNS
+  description: Fully managed push messaging service
+  website_url: http://aws.amazon.com/sns/
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Mobile Push Messaging
+  image_url: https://img.stackshare.io/service/396/amazon-sns.png
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source: config/environments/production.rb
+  last_updated_by: Philip Kallberg
+  last_updated_on: 2013-10-14 16:09:29.000000000 Z
+- name: Uppy
+  description: The next open source file uploader for web browsers
+  website_url: https://uppy.io/
+  version: 3.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Uploads
+  image_url: https://img.stackshare.io/service/6446/n7bKmRs1.jpg
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: Robin Ward
+  last_updated_on: 2020-04-29 16:18:21.000000000 Z
+- name: Bootsnap
+  description: Boot large ruby/rails apps faster, by Shopify
+  website_url: https://github.com/shopify/bootsnap
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Ruby Utilities
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2018-02-25 23:29:25.000000000 Z
+- name: Font Awesome
+  description: The internet's most popular icon toolkit
+  website_url: https://fontawesome.com/
+  version: 5.15.4
+  open_source: true
+  hosted_saas: false
+  category: Design
+  sub_category: Fonts
+  image_url: https://img.stackshare.io/service/3244/1_Mr1Fy00XjPGNf1Kkp_hWtw_2x.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-08-24 14:36:22.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: app/assets/javascripts/discourse/app/index.html
+  last_updated_by: David Taylor
+  last_updated_on: 2023-11-10 11:16:06.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-09-06 12:23:06.000000000 Z
+- name: OmniAuth
+  description: OmniAuth is a flexible authentication system utilizing Rack middleware.
+  website_url: https://github.com/intridea/omniauth
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/1433/omniauth.png
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: UglifyJS
+  description: A JavaScript parser, minifier, compressor and beautifier toolkit.
+  website_url: http://lisperator.net/uglifyjs/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
+  detection_source: Gemfile
+  last_updated_by: johnmcdowall
+  last_updated_on: 2013-02-09 17:04:52.000000000 Z
+- name: jsdoc
+  description: An API documentation generator for JavaScript
+  website_url: http://usejsdoc.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Documentation as a Service & Tools
+  image_url: https://img.stackshare.io/service/4047/js-doc.png
+  detection_source: package.json
+  last_updated_by: David Taylor
+  last_updated_on: 2023-07-20 20:01:12.000000000 Z
+- name: active_model_serializers
+  description: ActiveModel::Serializers allows you to generate your JSON in an object-oriented
+    and convention-driven manner
+  package_url: https://rubygems.org/active_model_serializers
+  version: 0.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19092/default_7d8fff827ba2485899e223ac4fb9773463ea4acd.png
+  detection_source_url: Gemfile
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2021-08-20 02:20:08.000000000 Z
+- name: addressable
+  description: Addressable is an alternative implementation to the URI implementation
+    that is part of Ruby's standard library
+  package_url: https://rubygems.org/addressable
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18870/default_63d360ffaa27bed91e2b067fb467407b5c9da0ed.png
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2023-06-30 00:14:16.000000000 Z
+- name: annotate
+  description: Annotates Rails/ActiveRecord Models
+  package_url: https://rubygems.org/annotate
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19550/default_65fd8d3cf98551f2f8f1e0cffcf1132cb03ee4fd.png
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2021-07-06 08:47:16.000000000 Z
+- name: arel
+  description: Arel Really Exasperates Logicians Arel is a SQL AST manager for Ruby
+  package_url: https://rubygems.org/arel
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19273/default_209999e183f7dadfc9e8afe0cc496669c084cb36.png
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2014-11-12 21:51:06.000000000 Z
+- name: aws-sdk-s3
+  description: Official AWS Ruby gem for Amazon Simple Storage Service
+  package_url: https://rubygems.org/aws-sdk-s3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19078/default_4df61286a41b221e05fffb41a1003ffc1a8eaf4e.png
+  detection_source: Gemfile
+  last_updated_by: Régis Hanol
+  last_updated_on: 2019-02-13 20:26:40.000000000 Z
+- name: binding_of_caller
+  description: Retrieve the binding of a method's caller
+  package_url: https://rubygems.org/binding_of_caller
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19104/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  detection_source: Gemfile
+  last_updated_by: Leonardo Mosquera
+  last_updated_on: 2022-11-28 19:30:19.000000000 Z
+- name: colored2
+  description: This is a heavily modified fork of http://github.com/defunkt/colored
+    gem, with many sensible pull requests combined
+  package_url: https://rubygems.org/colored2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19794/default_dc562522bb8e27795ab379270f6698f9b4f29fa5.png
+  detection_source: Gemfile
+  last_updated_by: Gerhard Schlager
+  last_updated_on: 2018-09-04 21:57:20.000000000 Z
+- name: css_parser
+  description: A set of classes for parsing CSS in Ruby
+  package_url: https://rubygems.org/css_parser
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19374/default_a6357952cecd3d7f5f139b05b2b322f8db813eda.png
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-03-17 11:09:45.000000000 Z
+- name: diffy
+  description: Convenient diffing in ruby
+  package_url: https://rubygems.org/diffy
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19134/default_302643c2b99caa1c440c0d4aa23d4230e1cc78e3.png
+  detection_source: Gemfile
+  last_updated_by: Guo Xiang Tan
+  last_updated_on: 2019-06-14 06:42:53.000000000 Z
+- name: excon
+  description: EXtended http
+  package_url: https://rubygems.org/excon
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18969/default_9d52aa709072720d10689abb364a46204bb87784.png
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2015-05-25 07:57:06.000000000 Z
+- name: execjs
+  description: ExecJS lets you run JavaScript code from Ruby
+  package_url: https://rubygems.org/execjs
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19031/default_5e6f4490e7ced4a026c6f8459237f2bb9d24fbdb.png
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2016-05-20 07:06:44.000000000 Z
+- name: fabrication
+  description: Fabrication is an object generation framework for ActiveRecord
+  package_url: https://rubygems.org/fabrication
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19327/default_3e64cc94df19c66f84c55bb76c0d7b791f8f49f4.png
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2021-08-20 02:20:08.000000000 Z
+- name: faker
+  description: Faker
+  package_url: https://rubygems.org/faker
+  version: '2.16'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18897/default_31c6044490fb5c1bec1388b8ceb466b6ac78ae92.png
+  detection_source_url: Gemfile
+  detection_source: Gemfile
+  last_updated_by: Vinoth Kannan
+  last_updated_on: 2021-11-01 12:28:24.000000000 Z
+- name: fakeweb
+  description: FakeWeb is a helper for faking web requests in Ruby
+  package_url: https://rubygems.org/fakeweb
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18874/default_0cd89f02ed75d3a8429cd566a89b1a4a36ad114f.png
+  detection_source: Gemfile
+  last_updated_by: Vinoth Kannan
+  last_updated_on: 2021-11-01 12:28:24.000000000 Z
+- name: faraday
+  description: HTTP/REST API client library
+  package_url: https://rubygems.org/faraday
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18835/default_0e382579c2f0564abd86ba662410379f1d623a9c.png
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2022-10-05 12:19:04.000000000 Z
+- name: fastimage
+  description: FastImage finds the size or type of an image given its uri by fetching
+    as little as needed
+  package_url: https://rubygems.org/fastimage
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19239/default_c4ed1d3f735f11415ee5d02b5a5ba48490465220.png
+  detection_source: Gemfile
+  last_updated_by: Blake Erickson
+  last_updated_on: 2021-05-25 01:27:20.000000000 Z
+- name: highline
+  description: A high-level IO library that provides validation, type conversion,
+    and more for command-line interfaces
+  package_url: https://rubygems.org/highline
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18866/default_2fe576f13c88e20e645ee0a744c045ee730bcad6.png
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2022-12-27 18:28:13.000000000 Z
+- name: htmlentities
+  description: A module for encoding and decoding
+  package_url: https://rubygems.org/htmlentities
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18995/default_33b08efb2463b893403b434b8c4275715d78743b.png
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2021-08-20 02:20:08.000000000 Z
+- name: image_optim
+  description: Command line tool and ruby interface to optimize
+  package_url: https://rubygems.org/image_optim
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19798/default_5acb201e8340ca5b337b8c46c2fcaff7aa0db0ec.png
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2023-06-30 00:14:16.000000000 Z
+- name: json
+  description: This is a JSON implementation as a Ruby extension in C
+  package_url: https://rubygems.org/json
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
+  detection_source: Gemfile
+  last_updated_by: Penar Musaraj
+  last_updated_on: 2021-03-11 02:32:23.000000000 Z
+- name: listen
+  description: The Listen gem listens to file modifications and notifies you about
+    the changes
+  package_url: https://rubygems.org/listen
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18942/default_a51418802dbfb428c729400211798b5046fe4140.png
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2017-04-13 14:26:07.000000000 Z
+- name: loofah
+  description: Loofah is a general library for manipulating and transforming HTML/XML
+    documents and fragments, built on top of Nokogiri
+  package_url: https://rubygems.org/loofah
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19467/default_9fadec62becac7e7d4b0d823b4daea6bad21b1be.png
+  detection_source: Gemfile
+  last_updated_by: Roman Rizzi
+  last_updated_on: 2021-04-07 15:51:19.000000000 Z
+- name: lru_redux
+  description: An efficient implementation of an lru cache
+  package_url: https://rubygems.org/lru_redux
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19568/default_9af4d607387f607725ccb446048432254098a06a.png
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2013-04-24 01:59:59.000000000 Z
+- name: mail
+  description: A really Ruby Mail handler
+  package_url: https://rubygems.org/mail
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18937/default_ec64e7b00489c2b012b637eba2526e31e442c25b.png
+  detection_source: Gemfile
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-03-24 19:10:28.000000000 Z
+- name: memory_profiler
+  description: Memory profiling routines for Ruby 2.3+
+  package_url: https://rubygems.org/memory_profiler
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19745/default_9441b9831c402e8b1bbbeac1030603f41221911e.png
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2021-08-20 02:20:08.000000000 Z
+- name: minitest
+  description: Minitest provides a complete suite of testing facilities supporting
+    TDD, BDD, mocking, and benchmarking
+  package_url: https://rubygems.org/minitest
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
+  detection_source: Gemfile
+  last_updated_by: Martin Brennan
+  last_updated_on: 2023-08-23 01:18:33.000000000 Z
+- name: mocha
+  description: Mocking and stubbing library with JMock/SchMock syntax
+  package_url: https://rubygems.org/mocha
+  license: MIT,BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18834/default_0e382579c2f0564abd86ba662410379f1d623a9c.png
+  detection_source: Gemfile
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2020-04-21 16:32:42.000000000 Z
+- name: multi_json
+  description: A common interface to multiple JSON libraries
+  package_url: https://rubygems.org/multi_json
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18851/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
+  detection_source: Gemfile
+  last_updated_by: Penar Musaraj
+  last_updated_on: 2021-03-11 02:32:23.000000000 Z
+- name: mysql2
+  description: A simple, fast Mysql library for Ruby, binding to libmysql
+  package_url: https://rubygems.org/mysql2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18883/default_947bd37125b8812cb816bc3cf571b13df90a4fe0.png
+  detection_source: Gemfile
+  last_updated_by: Régis Hanol
+  last_updated_on: 2017-04-24 20:32:27.000000000 Z
+- name: nokogiri
+  description: Nokogiri
+  package_url: https://rubygems.org/nokogiri
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2016-06-07 06:51:39.000000000 Z
+- name: oj
+  description: The fastest JSON parser and object serializer
+  package_url: https://rubygems.org/oj
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18910/default_b76f924b2976860f8be50e4adb06ebfdc8ab90ac.png
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: omniauth-facebook
+  description: Facebook OAuth2 Strategy for OmniAuth
+  package_url: https://rubygems.org/omniauth-facebook
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19539/default_218dae89c7df5d5855caf68241b819cfe024f92e.png
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2019-06-03 18:17:00.000000000 Z
+- name: omniauth-oauth2
+  description: An abstract OAuth2 strategy for OmniAuth
+  package_url: https://rubygems.org/omniauth-oauth2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18909/default_6011c3e13c0feeff577120981a21a5968e50756a.png
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2019-06-03 18:17:00.000000000 Z
+- name: omniauth-twitter
+  description: OmniAuth strategy for Twitter
+  package_url: https://rubygems.org/omniauth-twitter
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19712/default_aeaa8b24dd36f8e334bb5b9c0baaee88c37e0037.png
+  detection_source: Gemfile
+  last_updated_by: Guo Xiang Tan
+  last_updated_on: 2020-06-12 01:22:40.000000000 Z
+- name: parallel
+  description: Run any kind of code in parallel processes
+  package_url: https://rubygems.org/parallel
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18994/default_33b08efb2463b893403b434b8c4275715d78743b.png
+  detection_source: Gemfile
+  last_updated_by: Leonardo Mosquera
+  last_updated_on: 2022-11-28 19:30:19.000000000 Z
+- name: parallel_tests
+  description: Run Test::Unit / RSpec / Cucumber / Spinach in parallel
+  package_url: https://rubygems.org/parallel_tests
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19381/default_d06491b31bf23f206766eea6b3a6a79554fea530.png
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2023-06-20 01:49:22.000000000 Z
+- name: pg
+  description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
+  package_url: https://rubygems.org/pg
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: pry-byebug
+  description: Combine 'pry' with 'byebug'
+  package_url: https://rubygems.org/pry-byebug
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18848/default_1c2935fa69cec14d38adad302e002464101cd71f.png
+  detection_source: Gemfile
+  last_updated_by: Martin Brennan
+  last_updated_on: 2020-06-05 02:30:34.000000000 Z
+- name: pry-rails
+  description: Use Pry as your rails console
+  package_url: https://rubygems.org/pry-rails
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19013/default_3667c8b28d9ec2ad93884ef523ec8f357774f78e.png
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2023-08-11 01:00:42.000000000 Z
+- name: rack
+  description: Rack provides a minimal, modular and adaptable interface for developing
+    web applications in Ruby
+  package_url: https://rubygems.org/rack
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18839/default_db5cfb0d85d9fd8bfb40a863581417a2a57791ab.png
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2020-07-08 06:42:31.000000000 Z
+- name: rack-protection
+  description: Protect against typical web attacks
+  package_url: https://rubygems.org/rack-protection
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19588/default_5818f1f1c1c8cc4ffc2dcfcc8c7303f5c2518c2f.png
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2021-08-20 02:20:08.000000000 Z
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: redcarpet
+  description: A fast, safe and extensible Markdown to
+  package_url: https://rubygems.org/redcarpet
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18853/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
+  detection_source: Gemfile
+  last_updated_by: Gerhard Schlager
+  last_updated_on: 2023-08-07 10:39:58.000000000 Z
+- name: redis-namespace
+  description: Adds a Redis::Namespace class which can be used to namespace calls
+    to Redis
+  package_url: https://rubygems.org/redis-namespace
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19048/default_f59dec556f76ef878ccb1b8ccfe909880fad26c9.png
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2019-12-12 02:35:43.000000000 Z
+- name: rinku
+  description: A fast and very smart autolinking library that acts as a drop-in replacement
+    for Rails `auto_link`
+  package_url: https://rubygems.org/rinku
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19769/default_a49e0df53f26b21a9f5f65436125cec5e48b49af.png
+  detection_source: Gemfile
+  last_updated_by: johnmcdowall
+  last_updated_on: 2013-02-09 17:04:52.000000000 Z
+- name: rotp
+  description: Works for both HOTP and TOTP
+  package_url: https://rubygems.org/rotp
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19730/default_be22d39d0c697424d0da2019daf25b87c93b4c6e.png
+  detection_source: Gemfile
+  last_updated_by: Blake Erickson
+  last_updated_on: 2020-08-19 15:16:33.000000000 Z
+- name: rqrcode
+  description: Rqrcode is a library for encoding QR Codes
+  package_url: https://rubygems.org/rqrcode
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19491/default_235e01dd950d1f80c14beead28dc8c06a1dbf108.png
+  detection_source: Gemfile
+  last_updated_by: Régis Hanol
+  last_updated_on: 2018-10-19 14:03:22.000000000 Z
+- name: rspec-html-matchers
+  description: Nokogiri based 'have_tag' and 'with_tag' matchers for rspec 3
+  package_url: https://rubygems.org/rspec-html-matchers
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19268/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
+  detection_source: Gemfile
+  last_updated_by: Joffrey JAFFEUX
+  last_updated_on: 2023-07-27 08:25:41.000000000 Z
+- name: rspec-rails
+  description: Rspec-rails is a testing framework for Rails 3+
+  package_url: https://rubygems.org/rspec-rails
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2023-08-11 01:00:42.000000000 Z
+- name: ruby-prof
+  description: Ruby-prof is a fast code profiler for Ruby
+  package_url: https://rubygems.org/ruby-prof
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19062/default_7520676ca0e090ecd07df08a8e0994b056912237.png
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2023-02-07 15:24:57.000000000 Z
+- name: rubyzip
+  description: Rubyzip is a ruby module for reading and writing zip files
+  package_url: https://rubygems.org/rubyzip
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18887/default_1e22ca9f3f63a8c93249bae500705b9451e7e882.png
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2023-02-07 15:24:57.000000000 Z
+- name: sanitize
+  description: Sanitize is a whitelist-based HTML and CSS sanitizer
+  package_url: https://rubygems.org/sanitize
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19061/default_5739fe334ed718fddcfdaaefc58a5ee795a7f605.png
+  detection_source: Gemfile
+  last_updated_by: Arpit Jalan
+  last_updated_on: 2021-05-26 09:41:35.000000000 Z
+- name: selenium-webdriver
+  description: WebDriver is a tool for writing automated tests of websites
+  package_url: https://rubygems.org/selenium-webdriver
+  version: '4.14'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18901/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
+  detection_source_url: Gemfile
+  detection_source: Gemfile
+  last_updated_by: Penar Musaraj
+  last_updated_on: 2023-10-30 19:52:08.000000000 Z
+- name: shoulda-matchers
+  description: Shoulda Matchers provides RSpec- and Minitest-compatible one-liners
+    to test common Rails functionality that
+  package_url: https://rubygems.org/shoulda-matchers
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18912/default_f78521c51e3a38a8810251cfa8909b18ae0b40a8.png
+  detection_source: Gemfile
+  last_updated_by: Joffrey JAFFEUX
+  last_updated_on: 2023-07-27 08:25:41.000000000 Z
+- name: simplecov
+  description: Code coverage for Ruby 1.9+ with a powerful configuration library and
+    automatic merging of coverage across test suites
+  package_url: https://rubygems.org/simplecov
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18819/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2019-12-12 02:35:43.000000000 Z
+- name: sprockets
+  description: Sprockets is a Rack-based asset packaging system that concatenates
+    and serves JavaScript
+  package_url: https://rubygems.org/sprockets
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2023-01-13 10:52:05.000000000 Z
+- name: sprockets-rails
+  description: Sprockets Rails integration
+  package_url: https://rubygems.org/sprockets-rails
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19198/default_be4b4d308c5637e0747ed40c613027452d6ef0c5.png
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2023-08-11 01:00:42.000000000 Z
+- name: sqlite3
+  description: This module allows Ruby programs to interface with the SQLite3 database
+    engine
+  package_url: https://rubygems.org/sqlite3
+  version: '1.3'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18820/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: Gemfile
+  detection_source: Gemfile
+  last_updated_by: Gerhard Schlager
+  last_updated_on: 2023-08-07 10:39:58.000000000 Z
+- name: sshkey
+  description: Generate private/public SSH keypairs using pure Ruby
+  package_url: https://rubygems.org/sshkey
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19635/default_c20e52921fb58565300f75e5cc64e8813f40ba54.png
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2018-03-09 05:14:21.000000000 Z
+- name: stackprof
+  description: Stackprof is a fast sampling profiler for ruby code
+  package_url: https://rubygems.org/stackprof
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19598/default_88694c513ad6229305b102ea8a6b3d3fbdcd342e.png
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-03-17 11:09:45.000000000 Z
+- name: thor
+  description: Thor is a toolkit for building powerful command-line interfaces
+  package_url: https://rubygems.org/thor
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18827/default_fa0604c1b3b2c413c942b4fa310935704d314c2f.png
+  detection_source: Gemfile
+  last_updated_by: Guo Xiang Tan
+  last_updated_on: 2017-03-03 02:14:35.000000000 Z
+- name: tiny_tds
+  description: TinyTDS - A modern, simple and fast FreeTDS library for Ruby using
+    DB-Library
+  package_url: https://rubygems.org/tiny_tds
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19734/default_aa474d7015fda600ab28878906d1a036af8e61c7.png
+  detection_source: Gemfile
+  last_updated_by: Régis Hanol
+  last_updated_on: 2018-06-04 14:57:12.000000000 Z
+- name: tzinfo-data
+  description: TZInfo::Data contains data from the IANA Time Zone database packaged
+    as Ruby modules for use with TZInfo
+  package_url: https://rubygems.org/tzinfo-data
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
+  detection_source: Gemfile
+  last_updated_by: Penar Musaraj
+  last_updated_on: 2023-02-21 16:52:04.000000000 Z
+- name: uglifier
+  description: Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible
+    in Ruby
+  package_url: https://rubygems.org/uglifier
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2013-05-13 08:04:03.000000000 Z
+- name: unf
+  description: This is a wrapper library to bring Unicode Normalization Form support
+    to Ruby/JRuby
+  package_url: https://rubygems.org/unf
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19426/default_d8d9e269f3470c79700fe31e57a14ccc1424ff5a.png
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: unicorn
+  description: Unicorn is an HTTP server for Rack applications designed to only serve
+    fast clients on low-latency
+  package_url: https://rubygems.org/unicorn
+  license: GPL-2.0+,Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19218/default_504c6d1cb95a30a2134a5c2236c1c37c91700cc1.png
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2020-07-29 07:08:06.000000000 Z
+- name: webmock
+  description: WebMock allows stubbing HTTP requests and setting expectations on HTTP
+    requests
+  package_url: https://rubygems.org/webmock
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source: Gemfile
+  last_updated_by: Guo Xiang Tan
+  last_updated_on: 2017-04-15 04:11:02.000000000 Z
+- name: yard
+  description: YARD is a documentation generation tool for the Ruby programming language
+  package_url: https://rubygems.org/yard
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source: Gemfile
+  last_updated_by: Martin Brennan
+  last_updated_on: 2023-02-13 12:09:57.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.23.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-09 23:00:05.000000000 Z
+- name: "@ember/optional-features"
+  description: The default blueprint for ember-cli addons
+  package_url: https://www.npmjs.com/@ember/optional-features
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16849/default_1b078765f7b7ae4ccce598a7251eb06451511e5e.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-16 11:31:25.000000000 Z
+- name: "@fortawesome/fontawesome-free"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-free
+  version: 5.15.4
+  license: CC-BY-4.0,OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17170/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-08-24 14:36:22.000000000 Z
+- name: "@types/jquery"
+  description: TypeScript definitions for jQuery
+  package_url: https://www.npmjs.com/@types/jquery
+  version: 3.5.27
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16363/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: broccoli-asset-rev
+  description: Broccoli asset revisions
+  package_url: https://www.npmjs.com/broccoli-asset-rev
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16119/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: Robin Ward
+  last_updated_on: 2020-09-22 18:18:47.000000000 Z
+- name: chrome-remote-interface
+  description: Chrome Debugging Protocol interface
+  package_url: https://www.npmjs.com/chrome-remote-interface
+  version: 0.31.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18589/default_5c7de077cac4a68f32e17c8de98e761949c60ca1.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-09-06 12:23:06.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 8.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-09-06 12:23:06.000000000 Z
+- name: deepmerge
+  description: A library for deep
+  package_url: https://www.npmjs.com/deepmerge
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-06-30 11:01:45.000000000 Z
+- name: ember-cli-app-version
+  description: Adds App version number to Ember Inspector Info Tab
+  package_url: https://www.npmjs.com/ember-cli-app-version
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16223/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-14 12:06:53.000000000 Z
+- name: ember-cli-babel
+  description: Ember CLI addon for Babel
+  package_url: https://www.npmjs.com/ember-cli-babel
+  version: 7.26.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16116/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-09 23:00:05.000000000 Z
+- name: ember-cli-htmlbars
+  description: A library for adding htmlbars to ember CLI
+  package_url: https://www.npmjs.com/ember-cli-htmlbars
+  version: 5.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16115/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: ember-cli-inject-live-reload
+  description: Plugin for ember-cli that injects live-reload script into HTML content
+  package_url: https://www.npmjs.com/ember-cli-inject-live-reload
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16117/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: ember-cli-sri
+  description: SRI generation for Ember CLI
+  package_url: https://www.npmjs.com/ember-cli-sri
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16180/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: ember-disable-prototype-extensions
+  description: Disable Ember's prototype extensions
+  package_url: https://www.npmjs.com/ember-disable-prototype-extensions
+  version: 1.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16157/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: ember-load-initializers
+  description: A tiny add-on to autoload your initializer files in ember-cli
+  package_url: https://www.npmjs.com/ember-load-initializers
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16196/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: ember-qunit
+  description: QUnit helpers for testing Ember.js applications
+  package_url: https://www.npmjs.com/ember-qunit
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17016/default_8ef738cb63f629c8e87903029b82b45840ab75a3.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-14 12:06:53.000000000 Z
+- name: ember-resolver
+  description: The default modules based resolver for Ember CLI
+  package_url: https://www.npmjs.com/ember-resolver
+  version: 11.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16189/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: ember-source
+  description: A JavaScript framework for creating ambitious web applications
+  package_url: https://www.npmjs.com/ember-source
+  version: 3.28.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16288/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: ember-source-channel-url
+  description: Determine the URL to a given Ember channels
+  package_url: https://www.npmjs.com/ember-source-channel-url
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16658/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/bootstrap-json/package.json
+  last_updated_by: David Taylor
+  last_updated_on: 2023-11-10 11:16:06.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 10.3.10
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/bootstrap-json/package.json
+  last_updated_by: David Taylor
+  last_updated_on: 2023-11-10 11:16:06.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/theme-transpiler/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-08-09 09:26:42.000000000 Z
+- name: html-entities
+  description: Faster HTML entities encode/decode library
+  package_url: https://www.npmjs.com/html-entities
+  version: 2.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17291/default_116e98e237458e603feb81cfbf628c00544be692.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-26 11:16:09.000000000 Z
+- name: imports-loader
+  description: Imports loader module for webpack
+  package_url: https://www.npmjs.com/imports-loader
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16422/default_cdeaf2fdc112ae29eada7343314e0eee59c7eb0d.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-18 11:42:26.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 3.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-06-30 11:01:45.000000000 Z
+- name: loader.js
+  description: Loader.js =========
+  package_url: https://www.npmjs.com/loader.js
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16210/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/wizard/package.json
+  last_updated_by: NullVoxPopuli
+  last_updated_on: 2023-05-03 08:25:13.000000000 Z
+- name: markdown-it
+  description: Markdown-it - modern pluggable markdown parser
+  package_url: https://www.npmjs.com/markdown-it
+  version: 13.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16277/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse-markdown-it/package.json
+  last_updated_by: Godfrey Chan
+  last_updated_on: 2023-11-06 16:59:49.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-09-06 12:23:06.000000000 Z
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.43
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-09-06 12:23:06.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/bootstrap-json/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-07-26 01:21:25.000000000 Z
+- name: qunit-dom
+  description: High Level DOM Assertions for QUnit
+  package_url: https://www.npmjs.com/qunit-dom
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16779/default_661bbd7f9556b6c5c0b8be11cd13e1813fc5c977.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: sass
+  description: A pure JavaScript implementation of Sass
+  package_url: https://www.npmjs.com/sass
+  version: 1.69.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-26 21:53:08.000000000 Z
+- name: source-map
+  description: Generates and consumes source maps
+  package_url: https://www.npmjs.com/source-map
+  version: 0.4.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16339/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: Godfrey Chan
+  last_updated_on: 2023-11-06 16:59:49.000000000 Z
+- name: terser
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/terser
+  version: 5.24.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16562/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/theme-transpiler/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-01 10:23:10.000000000 Z
+- name: util
+  description: Node.js's util module for all engines
+  package_url: https://www.npmjs.com/util
+  version: 0.12.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16507/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-07 21:43:42.000000000 Z
+- name: virtual-dom
+  description: A batched diff-based DOM rendering strategy
+  package_url: https://www.npmjs.com/virtual-dom
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17611/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: app/assets/javascripts/yarn.lock
+  detection_source: app/assets/javascripts/discourse/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-13 01:00:58.000000000 Z
